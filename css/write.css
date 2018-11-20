@@ -1,0 +1,107 @@
+.bg_color{
+    background-color: #eee;
+    height:40px;
+    line-height: 40px;
+}
+.bg_color+ul{
+    background-color: #fafafa;
+}
+.bg_color+ul>li{
+    height:40px;
+    line-height: 40px;
+}
+.bg_color+ul>li.active>a{
+    color:#c72020;
+}
+/*推荐,热门,最新,销量*/
+.ul_sanjiao>ul>li>a{
+    padding:0 15px;
+    display: inline-block;
+}
+.ul_sanjiao>ul>li>a>i{
+    display: inline-block;
+    border-bottom: 4px solid #333;
+    border-top:0;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    margin:0 0 3px 5px;
+}
+.ul_sanjiao>div>input.i_price{
+    width:70px;
+    padding:6px;
+    border:1px solid #e5e5e5;
+    border-radius: 2px;
+    outline: none;
+}
+.ul_sanjiao>div>button{
+    border-color: #f96868;
+    background-color: #f96868;
+    color: #fff;
+    padding:6px 10px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    outline: none;
+}
+.ul_sanjiao>div>button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/*产品信息*/
+.p_list span.p_price{
+    font-size:1.3rem;
+    color:#c72020;
+}
+.p_list span.x_qing{
+    padding:5px 16px;
+    border:1px solid #e5e5e5;
+    border-radius: 2px;
+    display: none;
+}
+.p_list>li:hover{
+    box-shadow: inset 0 0 38px rgba(0, 0, 0, 0.08);
+    transition: all .15s ease;
+}
+.p_list>li>a{
+    overflow: hidden;
+}
+.p_list>li>a>img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s linear;
+}
+.p_list>li>h3>a:hover{
+    color:#c72020;
+}
+.p_list>li{
+    border:1px solid #e5e5e5;
+    padding:0;
+}
+@media (max-width: 767.98px) {
+    .col-sm-6{
+        width:50%;
+    }
+}
+/*分页*/
+.page>a{
+    padding:10px 15px;
+}
+.page>a.active{
+    background: #c72020;
+    color:#fff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

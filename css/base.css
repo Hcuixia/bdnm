@@ -1,0 +1,78 @@
+*{
+    color:#333;
+    font-size: 14px;
+}
+a {
+    color: #333;
+
+}
+/*header.html��ʽ*/
+.logo{
+    max-width:77px;
+    max-height:80px;
+}
+.my_nav ul a.nav-link{
+    color:#000 !important;
+    font-size: 14px;
+}
+.my_nav ul a.nav-link.active{
+    color: #c72020 !important;
+}
+.my_nav ul a.nav-link:active{
+    color: #c72020 !important;
+}
+.my_nav ul a.nav-link:hover{
+    color: #c72020 !important;
+}
+@media (min-width: 576px) {
+    .my_nav .navbar-nav .nav-link {
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    .hidden-sm{
+        display:none;
+    }
+}
+@media screen and  (max-width:575px){
+   .my_nav{
+        background: #f3fffa;
+        margin-top:1rem;
+    }
+    .my_nav .nav-item{
+        /*border:1px solid #f5f5f5;*/
+        padding-left:15px;
+        background: #f3fffa;
+    }
+}
+    /*�����̺���*/
+.my_nav .navbar-toggler {
+    border: none;
+}
+/*�������л�*/
+.qie_huan .nav-link.active{
+    color: #c72020 ;
+}
+/*footer.html�ײ���ʽ*/
+.footer_bg{
+    background: url("../img/index/footer_bg.jpg") no-repeat center;
+    background-size:cover;
+}
+
+
+/*������ʽ*/
+.my_small_font{
+    font-size: 13px;
+}
+/*���м������ʽ�޸�*/
+.my_ul_width{
+    width:14rem;
+}
+
+/*��˾���,��˾�Ļ�������ɫ��ʽ*/
+.text_color #jian_jie p,.text_color #wen_hua p{
+    color: #2a333c !important;
+    line-height: 2rem;
+}
+

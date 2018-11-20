@@ -1,0 +1,13 @@
+.search_bg{
+    background-image:linear-gradient(to bottom, #fafafa 0%,#ddd 100%);
+}
+.search_01{
+    border-radius: 18px;
+    outline: none;
+}
+.col_right .ul_hover>li>a:hover{
+    color:#c72020;
+}
+.col_right>.ul_active>.active>a{
+    color:#c72020;
+}
